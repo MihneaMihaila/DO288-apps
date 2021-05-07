@@ -2,6 +2,6 @@
 FROM node:slim
 WORKDIR /home
 EXPOSE 3000
-COPY ./server.js /home
+COPY ./Server.js /home
 RUN npm install express
-CMD ["node", "./server.js"]
+CMD ["node", "./Server.js"]
