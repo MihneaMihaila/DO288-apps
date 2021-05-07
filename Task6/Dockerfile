@@ -1,7 +1,7 @@
+
 FROM node:slim
-RUN mkdir task
-WORKDIR /task
+WORKDIR /home
 EXPOSE 3000
-COPY ./server.js /task
+COPY ./server.js /home
 RUN npm install express
 CMD ["node", "./server.js"]
