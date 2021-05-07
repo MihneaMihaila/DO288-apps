@@ -1,5 +1,5 @@
 FROM node:slim
-WORKDIR \home
+WORKDIR /home
 COPY server.js .
 RUN npm install express
 EXPOSE 3000
