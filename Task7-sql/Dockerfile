@@ -1,4 +1,3 @@
-
 FROM mysql
 ENV MYSQL_USER mihnea
 ENV MYSQL_PASSWORD mihnea
