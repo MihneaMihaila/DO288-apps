@@ -6,12 +6,12 @@ const express = require('express')
 const app = express()
 const port = 3000
 app.get('/', (req, res) =>{
-var con = mysql.createConnection({
+/*var con = mysql.createConnection({
  host:"mysql-task71.myproject.svc" ,
  user:"mihnea" ,
  password:"mihnea" ,
  database:"database" 
-});
+}); */
 con.connect(function(err) {
  if (err) throw err;
  console.log("Connected!");
