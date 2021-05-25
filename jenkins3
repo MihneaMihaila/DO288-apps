@@ -8,7 +8,7 @@ pipeline {
                                     sudo yum install -y httpd
                                     sudo systemctl start httpd
                                     sudo systemctl enable httpd
-                                    echo "<h1>JENKINS DAY 3123</h1>" > /var/www/mihnea.com/html/index.html'''
+                                    echo "<h1>JENKINS DAY 33</h1>" > /var/www/mihnea.com/html/index.html'''
                                    }
                  }
 }
